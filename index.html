@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syed Zain Abbas - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SYED ZAIN ABBAS</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- PROFILE SECTION -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Syed Zain Abbas profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SYED ZAIN ABBAS</h1>
+        <p class="section__text__p2">Principal Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Syed_Zain_Abbas_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/syed-zaina'"
+          />
+          <!-- <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          /> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="text-container">
+          <p>
+            I am a seasoned software engineer with over 7 years of experience in
+            designing and implementing scalable systems, specializing in back-end
+            development using technologies such as Node.js, NestJS, and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+      <p class="section__text__p1">My Professional</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Principal Software Engineer</h2>
+          <p><strong>Qult Technologies, Oklahoma, USA</strong></p>
+          <p>May 2024 – Present</p>
+          <p>
+            <a href="https://www.qult.ai/" target="_blank" rel="noopener noreferrer"><strong>Website</strong></a> |
+            <a href="https://www.linkedin.com/company/qult-technologies/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>
+          </p>
+          <ul>
+            <li>Led development of a system for the State Government using NestJS with TypeScript.</li>
+            <li>Integrated MySQL and AI algorithms for environmental data extraction from PDFs.</li>
+          </ul>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Senior Software Engineer</h2>
+          <p><strong>HueristicSol PVT LTD, Lahore, PK</strong></p>
+          <p>May 2022 – Present</p>
+          <ul>
+            <li>Architected high-performance APIs and developed a React.js interface.</li>
+            <li>Optimized database structures for scalability and efficiency.</li>
+          </ul>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Software Engineer</h2>
+          <p><strong>INIT PVT LTD, Karachi, PK</strong></p>
+          <p>Jun 2021 – Mar 2022</p>
+          <ul>
+            <li>Implemented a secure API Gateway and developed frontend features using React.js.</li>
+            <li>Contributed to backend development with Node.js and SQL.</li>
+          </ul>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Software Engineer</h2>
+          <p><strong>Kalsoft PVT LTD, Karachi, PK</strong></p>
+          <p>Dec 2019 – Jul 2020</p>
+          <ul>
+            <li>Developed backend APIs using ASP.NET Core and implemented JWT for secure processes.</li>
+            <li>Designed frontend interfaces using ASP.NET MVC Core.</li>
+          </ul>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Software Engineer</h2>
+          <p><strong>Interface Technologies, Karachi, PK</strong></p>
+          <p>Aug 2017 – Nov 2019</p>
+          <ul>
+            <li>Developed responsive UIs and backend systems with ASP.NET MVC.</li>
+            <li>Designed and structured databases for efficient data management.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Programming Languages</h2>
+          <p>JavaScript, Node.js, NestJS, Express.js, React.js, HTML, .NET Core</p>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Databases</h2>
+          <p>MySQL, Redis, MongoDB</p>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Third-Party APIs</h2>
+          <p>DocuSign, World Check, Google Search, Dow Jones, Factiva</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Luminous</h2>
+          <p>Technologies: NestJS, MySQL, AWS (Textract, Cognito), React.js</p>
+          <p>A system for GAS Inc., enabling the upload and analysis of environmental PDFs using AI and MySQL.</p>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://quality-luminous.gasai.us/login'">Live Demo</button>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Financial Management</h2>
+          <p>Technologies: Node.js, MySQL, Google Cloud, React.js</p>
+          <p>Software including portals for investment management with DocuSign integration for agreements and EKYC screening.</p>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://one-constellation.com/'">Live Demo</button>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Job Portal</h2>
+          <p>Technologies: React.js, Node.js (LoopBack), MongoDB</p>
+          <p>AI-driven job portal with features like resume builder, ranking, and parsing.</p>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://gradientgroup.com/#/'">Live Demo</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:imsyedzain@gmail.com">imsyedzain@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/syed-zaina">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/phone.png" alt="Phone icon" class="icon contact-icon" />
+          <img src="./assets/whatsapp.png" alt="Whatsapp icon" class="icon contact-icon" />
+          <p>+923402369512</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 SYED ZAIN ABBAS. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
